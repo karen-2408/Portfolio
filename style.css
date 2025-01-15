@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media3.giphy.com/media/ko7twHhomhk8E/200w.gif?cid=82a1493bjl3q352pn3fp1cn0jfbcydbpad4ivtgd59fw7c4a&ep=v1_gifs_related&rid=200w.gif&ct=g');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #000030; /* Black background color */
+    color: #fff; /* White text color for contrast */
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+#contact .container {
+    background-color: #fff; /* White box for Contact */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Centers the box and adds vertical spacing */
+    width: 90%; /* Adjusted to make the box larger */
+    max-width: 800px; /* Maximum width for the box */
+    text-align: center; /* Optional: Centers text inside the box */
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff; /* Changes the text color to white */
+}
+
+/* Style for the "Contact" heading */
+#contact h2 {
+    color: #fff; /* White text for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space between the heading and the box */
+    font-size: 2em; /* Adjust font size */
+}
+
+/* Style for the Contact box */
+#contact .container {
+    background-color: #fff; /* White background for the box */
+    padding: 20px; /* Inner spacing inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 0 auto; /* Center the box horizontally */
+    width: 90%; /* Relative width for responsive design */
+    max-width: 800px; /* Limit the maximum width of the box */
+    text-align: center; /* Center the text inside the box */
+}
+
+
+#contact .container p {
+    color: #000; /* Black text color for the paragraph inside the Contact box */
+    font-size: 1em; /* Optional: Adjust font size for readability */
+    line-height: 1.6; /* Optional: Improve text spacing */
+}
+
+
+p {
+    color: #fff;
+    font-size: 1.1em; /* Slightly larger font for readability */
+}
+
+.project {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000030;
+    color: #fff;
+    margin-top: 50px;
+}
