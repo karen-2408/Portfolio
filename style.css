@@ -53,6 +53,51 @@ nav ul li a {
     padding: 50px 0;
 }
 
+.about-box {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 800px; 
+    width: 90%; 
+    text-align: center;
+}
+
+/* Style for the About Me heading */
+#about h2 {
+    color: #fff; /* Dark color for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space between the heading and the box */
+    font-size: 2em; /* Adjust font size */
+}
+
+/* Style for the About Me box */
+.about-box {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Spacing inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Center the box with space above and below */
+    max-width: 800px; /* Limit width on larger screens */
+    width: 90%; /* Responsive width */
+    text-align: center; /* Center-align text inside */
+}
+
+/* Optional: Paragraph styles inside the box */
+.about-box p {
+    color: #333; /* Dark text color */
+    font-size: 1em; /* Adjust font size */
+    line-height: 1.6; /* Improve readability */
+}
+
+
+.project p {
+    color: #000; 
+    font-size: 1em; 
+    line-height: 1.6;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -63,28 +108,26 @@ nav ul li a {
     background-color: #fff;
     margin: 20px 0;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
 }
 #contact .container {
-    background-color: #fff; /* White box for Contact */
+    background-color: #fff; 
     padding: 20px;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin: 20px auto; /* Centers the box and adds vertical spacing */
-    width: 90%; /* Adjusted to make the box larger */
-    max-width: 800px; /* Maximum width for the box */
-    text-align: center; /* Optional: Centers text inside the box */
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    width: 90%;
+    max-width: 800px;
+    text-align: center; 
 }
-
 
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #fff; /* Changes the text color to white */
+    color: #fff;
 }
 
-/* Style for the "Contact" heading */
 #contact h2 {
     color: #fff; /* White text for the heading */
     text-align: center; /* Center the heading */
@@ -111,7 +154,6 @@ h2 {
     line-height: 1.6; /* Optional: Improve text spacing */
 }
 
-
 p {
     color: #fff;
     font-size: 1.1em; /* Slightly larger font for readability */
@@ -131,3 +173,24 @@ footer {
     color: #fff;
     margin-top: 50px;
 }
+
+/* Apply Times New Roman globally */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; /* Optional: Adjust base font size */
+    line-height: 1.6; /* Optional: Improve readability */
+    color: #333; /* Optional: Default text color */
+    background-color: #f4f4f4; /* Optional: Background color */
+}
+
+/* Example for headings to ensure consistency */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Example for links */
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
