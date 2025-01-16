@@ -16,8 +16,8 @@ body {
 
 
 header {
-    background-color: #000030; /* Black background color */
-    color: #fff; /* White text color for contrast */
+    background-color: #000030; 
+    color: #fff; 
     padding: 20px 0;
 }
 
@@ -64,31 +64,30 @@ nav ul li a {
     text-align: center;
 }
 
-/* Style for the About Me heading */
+
 #about h2 {
-    color: #fff; /* Dark color for the heading */
-    text-align: center; /* Center the heading */
-    margin-bottom: 20px; /* Space between the heading and the box */
-    font-size: 2em; /* Adjust font size */
+    color: #fff; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 2em;
 }
 
-/* Style for the About Me box */
+
 .about-box {
-    background-color: #fff; /* White background */
-    padding: 20px; /* Spacing inside the box */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin: 20px auto; /* Center the box with space above and below */
-    max-width: 800px; /* Limit width on larger screens */
-    width: 90%; /* Responsive width */
-    text-align: center; /* Center-align text inside */
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;
+    max-width: 800px; 
+    width: 90%; 
+    text-align: center; 
 }
 
-/* Optional: Paragraph styles inside the box */
 .about-box p {
-    color: #333; /* Dark text color */
-    font-size: 1em; /* Adjust font size */
-    line-height: 1.6; /* Improve readability */
+    color: #333; 
+    font-size: 1em; 
+    line-height: 1.6; 
 }
 
 
@@ -129,34 +128,34 @@ h2 {
 }
 
 #contact h2 {
-    color: #fff; /* White text for the heading */
-    text-align: center; /* Center the heading */
-    margin-bottom: 20px; /* Space between the heading and the box */
-    font-size: 2em; /* Adjust font size */
+    color: #fff; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 2em; 
 }
 
-/* Style for the Contact box */
+
 #contact .container {
-    background-color: #fff; /* White background for the box */
-    padding: 20px; /* Inner spacing inside the box */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin: 0 auto; /* Center the box horizontally */
-    width: 90%; /* Relative width for responsive design */
-    max-width: 800px; /* Limit the maximum width of the box */
-    text-align: center; /* Center the text inside the box */
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+    width: 90%; 
+    max-width: 800px; 
+    text-align: center; 
 }
 
 
 #contact .container p {
-    color: #000; /* Black text color for the paragraph inside the Contact box */
-    font-size: 1em; /* Optional: Adjust font size for readability */
-    line-height: 1.6; /* Optional: Improve text spacing */
+    color: #000; 
+    font-size: 1em; 
+    line-height: 1.6; 
 }
 
 p {
     color: #fff;
-    font-size: 1.1em; /* Slightly larger font for readability */
+    font-size: 1.1em; 
 }
 
 .project {
@@ -177,20 +176,17 @@ footer {
 /* Apply Times New Roman globally */
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px; /* Optional: Adjust base font size */
-    line-height: 1.6; /* Optional: Improve readability */
-    color: #333; /* Optional: Default text color */
-    background-color: #f4f4f4; /* Optional: Background color */
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #333;
+    background-color: #f4f4f4; 
 }
 
-/* Example for headings to ensure consistency */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Example for links */
 a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
-
