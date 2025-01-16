@@ -70,7 +70,7 @@ nav ul li a {
 
 #about h2 {
     color: #fff;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -87,7 +87,7 @@ nav ul li a {
 
 .about-box p {
     color: #333;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 /* Projects Section */
@@ -110,7 +110,7 @@ nav ul li a {
 
 .project p {
     color: #000;
-    font-size: 0.9em; 
+    font-size: 1.3em; 
     line-height: 1.5; 
 }
 
@@ -124,7 +124,7 @@ nav ul li a {
 
 #skills h2 {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 40px;
 }
 
@@ -134,7 +134,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 300px;
+    height: 200px;
 }
 
 .skill-box {
@@ -143,7 +143,7 @@ nav ul li a {
     height: 50px;
     background-color: #fff;
     color: #000;
-    font-size: 0.9em;
+    font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +195,7 @@ nav ul li a {
 #contact h2 {
     color: #fff;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -234,7 +234,7 @@ nav ul li a {
 }
 
 .experience-box p {
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.8;
 }
 
@@ -262,7 +262,7 @@ nav ul li a {
 }
 
 .leadership-box p {
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.8;
 }
 
@@ -275,7 +275,7 @@ nav ul li a {
 
 #volunteering h2 {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 40px;
 }
 
@@ -299,7 +299,7 @@ nav ul li a {
 }
 
 .volunteering-box p {
-    font-size: 0.9em; 
+    font-size: 1.3em; 
     line-height: 1.8; 
 }
 
