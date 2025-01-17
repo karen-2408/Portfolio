@@ -8,7 +8,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #333;
     background-image: url('https://media3.giphy.com/media/ko7twHhomhk8E/200w.gif?cid=82a1493bjl3q352pn3fp1cn0jfbcydbpad4ivtgd59fw7c4a&ep=v1_gifs_related&rid=200w.gif&ct=g');
     background-size: cover;
@@ -40,7 +40,7 @@ header .container {
 }
 
 header h1 {
-    font-size: 4.5em;
+    font-size: 6.5em;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 /* Section General Styles */
@@ -90,12 +90,56 @@ nav ul li a {
     font-size: 1.3em;
 }
 
+/* Add Picture Section */
+#add-picture {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #000030;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.picture-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.picture-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Above Me Picture Section */
+#above-me-picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.huge-picture-container {
+    width: 100%;
+}
+
+.huge-picture-container img {
+    width: 100%;
+    height: auto;
+}
+
 /* Projects Section */
 #projects h2 {
     text-align: center; 
     color: #fff;
-    margin-bottom: 20px; 
-    font-size: 2em;
+    margin-bottom: 30px; 
+    font-size: 3em;
 }
 
 .project {
@@ -110,7 +154,7 @@ nav ul li a {
 
 .project p {
     color: #000;
-    font-size: 1.3em; 
+    font-size: 1.2em; 
     line-height: 1.5; 
 }
 
@@ -139,8 +183,8 @@ nav ul li a {
 
 .skill-box {
     position: absolute;
-    width: 120px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
     background-color: #fff;
     color: #000;
     font-size: 1.3em;
@@ -234,8 +278,8 @@ nav ul li a {
 }
 
 .experience-box p {
-    font-size: 1.3em;
-    line-height: 1.8;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 /* Leadership Section */
@@ -262,8 +306,8 @@ nav ul li a {
 }
 
 .leadership-box p {
-    font-size: 1.3em;
-    line-height: 1.8;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 /* Volunteering Section */
@@ -276,7 +320,7 @@ nav ul li a {
 #volunteering h2 {
     color: #fff;
     font-size: 3em;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .volunteering-container {
@@ -299,8 +343,8 @@ nav ul li a {
 }
 
 .volunteering-box p {
-    font-size: 1.3em; 
-    line-height: 1.8; 
+    font-size: 1.2em; 
+    line-height: 1.5; 
 }
 
 /* Footer */
